@@ -4,7 +4,7 @@ from curso import Curso
 
 class CursoSpec(unittest.TestCase):
     
-    def it_Criar_objeto_curso(self):
+    def it_Criar_objeto_Curso(self):
 
     	curso = Curso(002, 'alguem', 18, 2)
 

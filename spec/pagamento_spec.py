@@ -4,7 +4,7 @@ from pagamento import Pagamento
 
 class PagamentoSpec(unittest.TestCase):
     
-    def it_Criar_objeto_pagamento(self):
+    def it_Criar_objeto_Pagamento(self):
 
     	pagamento = Pagamento(002, 1919191919, 18)
 
