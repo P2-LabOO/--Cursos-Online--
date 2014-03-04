@@ -14,8 +14,3 @@ class Escola:
 
 	def verificar_cursos(self,curso):
 		return (curso in self.cursos)
-
-
-
-
-
