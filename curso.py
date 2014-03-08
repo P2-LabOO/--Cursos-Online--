@@ -1,9 +1,10 @@
 class Curso:
-	def __init__(self,codigo,nome,cargaHoraria,aulas,escola,alunoCursos=[]):
+	def __init__(self,codigo,nome,cargaHoraria,aulas,valor,escola,alunoCursos=[]):
 		self.codigo = codigo
 		self.nome = nome
 		self.cargaHoraria = cargaHoraria
 		self.aulas = aulas	
+		self.valor = valor
 
 		self.escola = escola
 		self.alunoCursos = alunoCursos
@@ -13,3 +14,8 @@ class Curso:
 
 	def verificaAlunoCursos(self,alunoCurso):
 		return alunoCurso in self.alunoCursos
+
+	def valorCurso(self,nivel,valorNivel):
+		self.valor = nivel * valorNivel
+		return self.valor
+	

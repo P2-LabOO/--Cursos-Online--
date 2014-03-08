@@ -9,7 +9,7 @@ class professorSpec(unittest.TestCase):
 
 	def it_creates_a_Professor_object(self):
 		escola = Escola('001', 'IFF', 'iff@iff', 'iff.edu.br')
-		curso = Curso(123,'curso',40,2,escola)
+		curso = Curso(123,'curso',40,2,1,150.00,escola)
 		professor = Professor('001', 'LG', 'lg@lg', '997865432',curso)
 		professor.codigo |should| equal_to('001')
 		professor.nome |should| equal_to('LG')
